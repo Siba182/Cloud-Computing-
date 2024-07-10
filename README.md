@@ -222,15 +222,32 @@ Target audience: Developers and DBAs
 Target audience: End users
 
 
+**The Computing Resources Life Cycle**
+- A basic concept of both public and private cloud computing is that users only employ computing resources when needed and pay only for the resources they actually utilize during the time they use them.
 
 
+**Understanding Self-Service Provisioning and Elasticity**
+- Self-service provisioning is one of the most important capabilities of cloud computing.
+-  With self-service, cloud consumers can use a website in the cloud to select and purchase cloud services, configure them, launch them into the cloud environment, and start using them within minutes or perhaps even seconds
 
 
+**Establishing a Dynamic Life Cycle across Workloads and Data**
+- A cloud isn’t a single unified environment; rather, it’s a combination of resources that may be spread across systems and geographies
+- The cloud is a federated environment that brings together resources so that they can work together.
+- To make this happen in an organized manner requires an organization of workloads. A workload is an independent service or collection of code that can be executed
 
 
+**Management Services**
+- Management services are mandatory for ensuring that the operation of your cloud workloads and resources meets constituent needs (whether they are customer, employee, or partner) needs
+- This is the case regardless of the cloud deployment and delivery model
 
 
+**The Changing Role of the Data Center**
+- What happens to the data center when companies begin to implement hybrid clouds? First, the data center does not go away. After all, almost all medium-size and large companies run their own data center — which is how many companies operate their systems of record, including accounting systems, inventory records, and line of business applications, to name a few.
 
+
+**Evolution of the Data Centre into a Private Cloud**
+-
 
 
 
