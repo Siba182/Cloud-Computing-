@@ -323,13 +323,337 @@ Target audience: End users
 -  Offering compelling offerings that solve customer problems encourages them to buy once they get a taste of success
 - Being able to leverage the cloud to both offer and manage customer interaction transforms your ability to move quickly to increase your business.  
 
-</details>
 </br>
+</details>
+
 
 <details>
 <summary> Module 1 - 3. Architectural Considerations for the Cloud Environment
  </summary>
 <br>
+
+ **Rethinking the Type of Constituents Your Cloud Serves**
+ Two constituents that are part of the cloud ecosystem determine how you view the cloud architecture:
+
+ - **Cloud consumers:**  The individuals and groups within your business unit that use different types of cloud services to get a task accomplished. A cloud consumer could be a developer using computing services from a public cloud.
+
+- **Direct customers:**  Users who often take advantage of services that your business has created within a cloud environment. End users of your service have no idea that you are using a public or private cloud. As far as the users are concerned, they are interacting directly with your services and value.
+
+- **Cloud service provider:**  Commercial vendors or companies that create their own capabilities. Commercial vendors sell their services to cloud consumers. In contrast, a company might decide to become an internal cloud service provider to its own employees, partners, and customers — either as an internal service or as a profit center. These providers also create applications or services for these environments.
+
+
+**Planning for Deployment**
+-  from an architectural perspective, it is important to look at the relationship among the services that are used together
+-  One of the best practices needed is to be able to keep track of what task a specific service executes, the rules for how it can be used, as well as definitions and dependencies
+
+hybrid models have four primary architectural considerations:
+
+**1. Latency and Performance**
+- Latency, or slow response or performance, is a constant concern for customers
+- For example, say that a critical issue for your business is the speed at which customers’ orders are confirmed. If you do not handle this issue efficiently, customers won’t be happy and may move to another supplier
+- In a service-based approach to computing, you can tightly couple a set of services that must execute with low latency
+
+**2. Security: Planning in Context**
+- When planning your hybrid environment, at the outset, you need to think about the security requirements for customers. 
+
+
+**3. Governance: Getting the right balance**
+- Like security, governance requirements will determine how you plan and architect your hybrid cloud environment
+- These types of governance requirements demand that IT organizations plan their platform with this in mind.
+- This means including process management services that determine where data must be stored 
+
+
+**4. Reliability in the Context of Change**
+- Within an architectural framework, determining business, performance, and customer goals is important, and to do so, you must consider all aspects of computing.
+- You need to consider the issue of latency of overall performance and latency of managing data.
+
+- If applications and services being offered to customers are based on a tightly coupled set of services with many dependencies, a public cloud service will cause serious problems with performance
+
+- However, if the organization is creating and leveraging a platform of well-defined and loosely coupled services that are designed to be easily linked together at run time, a public cloud service is ideal
+
+**Setting the Right Policies and Business Rules**
+- Companies generally think about policy and business rules from an overall governance perspective
+
+- On the contrary, making policies and rules operational in a hybrid cloud environment means that these dictates must be integrated from an architectural perspective.
+
+- Building a policy or rule into the actual application may be straightforward in an on-premises environment. In a hybrid environment, however, you must make sure those policy requirements can be applied across components.
+
+
+**Navigating the Choices in a Hybrid World**
+- The great thing about a hybrid cloud is that the environment allows you to select the right service for the right tas
+
+- Think about the collection of requirements from a business perspective and match that perspective to an architectural approach
+
+- In general, you want the platforms you select to be appropriate for the service level requirements of the business
+
+- In the end, you want to end up with a highly optimized environment that matches the needs of the customers that you need to support.
+
+
+**Optimizing for Workloads**
+- Being able to optimize workloads across environments is one of the fundamental architectural principles of hybrid cloud computing
+
+- Unless workload optimization and balancing are one of the starting points, satisfying customer requirements will be difficul
+
+
+**Supporting a Dynamic Life Cycle**
+- The life cycle of cloud computing is different in many ways from the life cycle of a traditional computing environment
+
+- The architecture of the cloud environment is predicated on the ability to abstract the details away from users based on a services-oriented architecture
+
+As you start thinking about supporting a dynamic life cycle to support a hybrid cloud environment, consider the following:
+
+- Think about an overall services-based model that breaks down traditional disconnected silos of applications, processes, and services.
+
+- Think about creating an environment with fewer dependencies so that when you add new cloud services, you will have the flexibility to advance as the industry advances
+
+- Think about the performance requirements that will give your customers excellent experiences.
+
+- Think about creating a predictable, safe, and well-governed environment that will support business operations in the long run 
+</br>
+</details>
+
+
+<details>
+<summary> Module 1 - 4. Managing a Hybrid and Multicloud Environment
+ </summary>
+<br>
+
+**Managing SaaS Applications**
+- Increasingly businesses are turning to SaaS applications that are owned and operated by third-party vendors
+
+- However, businesses are beginning to bring some level of control to the use of SaaS applications. IT management must contend with several key problems in managing SaaS applications.
+
+
+**Optimizing SaaS Management**
+- Once a business has set the ground rules for using SaaS within the organization and educated users on the best practices of using public SaaS applications, it can take additional steps to improve costs, productivity, and security
+
+- Security should examine actual use to understand whether any practices are risking loss of the business’s intellectual property (IP), opening up connections that hackers can exploit or where other insecure activities can occur.
+
+
+**A SaaS Cautionary Tale**
+
+
+**Managing External Cloud Resources**
+- Businesses use many types of external or public cloud resources that require management. Resources may be virtual machines that developers use, storage for backups or disaster recovery
+
+- Cloud resources are the building blocks used to create applications. These infrastructure services are designed as a layer below SaaS applications and therefore are the responsibility of software developers.
+
+**Visibility and Control of External Resources**
+- To be successful, you need to have the ability to apply controls so that you can gain visibility into the cloud applications and services.
+
+- The biggest management challenges of external cloud resources are identifying the most appropriate services to use, verifying their characteristics (performance, security, cost, and so on), and making sure that these services are used exclusively
+
+- The rationale for using these resources to the exclusion of other resources is that after a service has been selected, investments in training, testing, and building infrastructure software will occur to make the service work effectively. 
+
+
+**The Importance of Self-Service**
+- Cloud providers make it as easy as possible for consumers to find and use their services. At the low pay-as-you-go prices of most cloud resources, it is a very compelling bargain. However, the company should limit employee choices of computing resources to approved resources.
+
+
+**Service Level Agreements (SLAs)**
+- Every cloud resource comes with a contractual agreement, known as a service level agreement (SLA), that outlines what the provider is delivering, along with the customer’s responsibilities
+
+- The agreement should outline characteristics like availability, accuracy, response time, throughput, and security.
+
+- These important traits are critical for selecting resources that will meet the performance requirements of the services or applications that will use them.
+
+
+
+**Addressing Poor Cloud and Computing Behaviors**
+- Cloud providers routinely seek to make their computing environments secure and robust, but users of those environments can still engage in risky behaviors.
+
+- We’ve all heard about people choosing passwords that are easy to guess, possibly leading to unauthorized theft of information or damage to software and systems. That is just one example of a dangerous behavior that companies work hard to prevent.
+
+- One more example of a security risk that is particularly relevant to today’s employees is the use of social media
+
+- However, a new generation has grown up with social media and uses it to share information, answer questions, and generally extend the user’s community outside the company’s boundaries.
+
+
+
+**Managing Internal Cloud Resources**
+- Because the business is serving cloud resources to its own employees and perhaps its business partners, it is not a public cloud provider but will deliver cloud resources via private or hybrid clouds
+
+- If it is using a hybrid cloud, the business may well pass public cloud resources to its internal customers, making the business both a public cloud consumer as well as a private cloud provider.
+
+- Regardless of the scope of offerings, issues like self-service, SLAs, and approved resources are just as critical, if not more so, to consumers of private and hybrid clouds.
+
+
+**Managing a hybrid cloud environment**
+- The combination of these resources (private and public clouds) provides the benefits of scalability, flexibility, and performance to their internal computing consumers. 
+
+
+**Understanding the Role of Internal SLAs**
+- When a company is a private or hybrid cloud provider to its internal consumers, the company should define SLAs for the resources and services provided
+
+- Doing so will formalize the operational requirements for those services and increase the chances that consumers will be pleased with the internal services.
+
+- SLAs provide objective targets for performance and other operational characteristics, such as mean time between failures, and therefore are important for determining whether performance problems with applications are due to problems with the application or problems with the resources and services that the application uses
+
+- In the public cloud, management of resources and services is the responsibility of the public cloud vendor or the third party who provides the software
+
+- In the private cloud environment, it is usually the responsibility of IT operations to monitor the software for deviations from SLA commitments.
+
+
+**Managing Internal Services**
+- As more businesses rely on cloud computing, they are creating internal services that are delivered to consumers within a company via a private or public cloud or a hybrid of both
+
+- But regardless of where applications are served from, internal consumers of cloud services expect professional applications to be operating with reliability and security and be backed by professional support
+
+- Support for internal applications may come from IT or from a call center — both managed within the company providing the private or hybrid cloud
+
+
+**Supporting Cloud Customers**
+- When customers run into problems with an application, they expect quick help. For third-party applications, comprehensive support will usually come from those third parties although internal support should be aware of the common issues consumers may encounter.
+
+-  But if applications are developed or maintained in-house by internal development teams or by IT acting as a development organization, then development has a role to play with support.
+
+-  For their part, support organizations pride and measure themselves on delivering quality and timely support. In fact, support organizations increasingly see a reduction of support calls as a goal
+
+
+**Monitoring Resources Imported From the Public Cloud**
+To verify that those resources are operating with sufficient performance and meeting SLAs, you have a few choices:
+
+- Set up test software in the public cloud to sample the performance of the resources. On the positive side, by testing the resource outside of your computing stack, you will avoid affecting your application’s performance. On the negative side, you may be testing resources that are so independent of your application that the testing results are not applicable to your application’s performance.
+
+- Set up that same test software in the hybrid cloud. The results are more likely to be consistent with what your application is experiencing, but the downside is that the testing will have a greater impact on the performance of your infrastructure because that is where the testing is operating.
+
+- Look to see whether the resources you are testing have a dashboard or other operational information available to you. If so, it may provide the performance information you are looking for.
+
+- Instrument the application running in the hybrid environment to log the actual performance of the resources as delivered to the application. If done carefully, it will have little impact on the application’s performance. This approach, which is perhaps the best solution, is desirable as it will be the most accurate way to monitor the resources’ behavior, and the results can be integrated with all the other issues being monitored by the application.
+
+
+**Monitoring the Cloud Infrastructure**
+- Public cloud vendors provide information about the operational status of major subsystems and services within their cloud environments.
+
+- The same type of information should be maintained for private and hybrid clouds.
+
+- Although this information is usually high level, ensuring that basic services are working properly should be the first thing that support people look to verify.
+
+
+**Monitoring Applications and Services**
+- User experience experts can look at how users work with the application to see problems in the user interface, opportunities for streamlining the user’s experience, and bugs in the application
+
+-  Product managers use the information to verify that features are being used as intended and to explore how new features can improve the application.
+
+-  Applications routinely generate logs, or records of exactly what the application has done. Developers examine logs after applications crash to help figure out why the crash occurred.
+
+-  Applications can also be instrumented to provide other useful information to the business, including Key Performance Indicators (KPIs) that, when designed properly, can disclose whether applications are meeting the goals they were designed to achieve.
+
+
+**Constructing Dashboards**
+- A wealth of data and information comes from a busy cloud environment, and many employees can use that information to solve their daily challenges
+
+Harnessing this information into a form that is useful requires at least two parts:
+- Analysis software that processes and reduces the data to a manageable form.
+- A visualization technique that makes the information easy for people to recognize.
+
+
+- Dashboards are often the best tool for presenting operational information to various audiences. With flexibility in how dashboards are constructed, different views with different focuses can be designed for different audiences.
+
+
+
+**Managing External Services**
+- One characteristic of a hybrid cloud environment is that an organization will have a variety of services that need to be managed.
+
+- To be successful, visibility and control over external and internal resources is critical.
+
+
+**DevOps and Deployment to Public Clouds**
+- DevOps combines Development with Operations and enables continuous development and deployment of software.
+
+-  DevOps streamlines the management of application and service life cycles by eliminating handoffs between development and operations and makes the software more robust because developers are now paying more attention to operational issues
+
+
+**External System Monitoring**
+- With applications and services used by customers in other companies, it is even more important that system monitoring gathers application and service usage than it was within a single company
+
+**Application and Service Life Cycles**
+Consider these issues for making applications and services fit the “always on and always available” expectations of the public cloud
+
+
+- DevOps’s goal for continuous development and deployment is to release new features as soon as they are ready. But while it was once okay to take the application down while it was being upgraded, it is not acceptable in the cloud. Applications and services must be able to be upgraded without disturbing customers who are using the application
+
+- Application and server failures are always bad, but they are probably worse in the cloud (if only because there may be many more users). Designing in failover capabilities so that a failure causes only a momentary pause is much more desirable than having the application be completely unavailable, or perhaps worse, cause user data loss.
+
+
+
+**The Future of Multicloud Management**
+Many different services and deployment models are emerging as part of the hybrid cloud fabric.
+
+You should begin asking some key questions:
+
+- What are all the services being used, and which ones do you anticipate adding?
+- Why is a service being used? Does it fulfil the business requirement?
+- Do the services provide the level of security and governance demanded by management?
+- Is the data that the application generates stored in the appropriate geography?
+- Is the latency of the overall environment acceptable to all service consumers?
+
+</br>
+</details>
+
+<details>
+<summary> Module 1 - 5. Standards in a Multicloud World 
+ </summary>
+<br>
+ 
+**What are Standards?**
+- Standards are established common and repeatable practices that have been agreed to by a business or group
+
+-  An open standard is one that is publicly and freely available, one that has been developed in a public context where anyone who is affected by the standard can contribute
+
+**Evolution of Standards**
+- **Multinational bodies:**  Treaties or other similar international legal agreements typically govern these bodies. These groups generally have long procedures and red tape before an agreement is reached. Members may be diplomats instead of technical experts. The International Organization for Standards (ISO) is one such group and is comprised of representatives from countries all over the world.
+
+- **Industry consortiums:**  A consortium is typically an organized group dedicated to developing standards for a specific industry requirement. Even though the members may be competitors, they know that coming together will help everyone. These groups are often more streamlined and agile than international bodies and often directly engage technical experts in the process
+
+- **An ad hoc group:**  Ad hoc groups are self-organized and governed. These groups are often built around open-source initiatives. They can be a loose body that discusses their matters through an Internet message board, or they may be more formally organized. These groups have even fewer processes than industry consortiums and are therefore able to quickly adapt and change as technology moves
+
+- **De facto standards:**  A de facto standard emerges when an approach or product is used so extensively used that it becomes a standard. The important distinction is that a de facto standard is not created by a specific body or organization, but instead develops through practice. Often, de facto standards emerge when industry best practices converge.
+
+
+standards can be categorized based on their level of maturity:
+- None
+- Under development
+- Approved
+- A reference
+- Market accepted (in widespread use)
+- Retired
+
+
+**Categories of Cloud-Related Standards**
+- SDOS vs SSOS
+- Interoperability
+- Portability
+- Security
+- Organizations Building Momentum Around Standards
+- Distributed Management Task Force (DMTF)
+- National Institute of Standards and Technology (NIST)
+- Cloud Standards Customer Council (CSCC)
+- Open Commons Consortium (OCC)
+- The Open Group
+- Storage Networking Industry Association (SNIA)
+- Vertical Groups
+
+
+**The Impact of Standards on the Multicloud**
+- In a multicloud world, many interfaces are between those that exist at your cloud provider and your applications, data, servers, and so on.
+- This state of affairs means that security is a risk in many places.
+
+Standards let you do the following:
+- In a multicloud world, where you may have part of the resources associated with an application on your own premises and part with a cloud provider, this capability is important because it enables your organization to be more flexible about where your resources may be located.
+
+- Prevent vendor lock-in. Lock-in occurs when you are so entrenched with a particular provider and its interfaces that moving to another provider is too costly. Removing barriers to lock-in increases your choices.
+
+- Integrate applications more easily between your on-premises data center and private and public cloud environments. Face it; integrating your assets across multiple environments can be time-consuming and costly if every cloud provider has a proprietary model. Standards help to make integration easier and eliminate many common barriers.
+
+</br>
+</details>
+
+<details>
+<summary> Module 1 - 6. A Closer Look at Cloud Services 
+ </summary>
+<br>
+
 </br>
 </details>
 
