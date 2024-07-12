@@ -247,20 +247,90 @@ Target audience: End users
 
 
 **Evolution of the Data Centre into a Private Cloud**
--
+- IT organizations have discovered that it’s much more efficient and effective to create private cloud services for developers to create new applications and services.
+- Therefore, companies are setting up a highly automated computing environment enabled with a self-service portal
+- This portal is often designed with business process rules that dictate what services a developer or an authorized partner can use.
+
+
+**Seeing how the Public Cloud Fits**
+- Your company selected its cloud provider partly because they run worldwide cloud environments. The cloud provider makes it easy to replicate applications and data to different regions, so it was simple to set up the SaaS application
+
+
+**Knowing When the Private Cloud Shines**
+- An architected private cloud that maintains sensitive financial data is ideal for the financial services company
+- The private cloud provides the scalability required for the quantity of data being managed, as well as meeting the legal obligations to store the regulated data in the country where the business is conducted.
+</br>
+
+<details>
+<summary> Module 1 - 2. Embracing the Business Imperative
+ </summary>
+<br>
+
+ **Understanding IT Transformation**
+ - With the rise of commercial cloud computing vendors and services, the role of IT is changing dramatically
+ - While the IT organization in the past had total control of computing resources, now IT is tasked with providing oversight, management, and vetting of options
+ - IT now has to provide oversight and management of both cloud and on-premises computing services
+ - This means that IT needs to provide a transition plan for applications that no longer have the modularity to support business requirements.
+
+**Escaping the IT Legacy Trap**
+- Ironically, legacy applications are often core to managing core business processes, such as payment services, customer information systems, and customer management. But the architectural foundation of these applications means that they’re unable to be easily updated as business processes change.
+
+- Assuming that these applications can simply be lifted into a cloud platform is tempting. In reality, this approach is one of the most expensive and least productive ways of gaining productivity.
+
+- First, not only does the application itself need to be moved, but also all the related dependent applications. In addition, these applications were not efficiently developed because of the technical constraints of an older computing model
+
+**Preparing for the Cloud**
+- The adoption of cloud as a strategy and plan calls for new practices, skills, and roles
+- How do you go about modernizing existing applications?
+- Are there Software as a Service (SaaS) applications that live in the cloud that are a better fit for the way business is being conducted today?
+- If a SaaS application is the answer, you need to determine how and where it will be used. There may be a need for adding new business processes for that SaaS application.
+- After all that preparation, cloud technologies are ready to be deployed, in either a private, hybrid, public, or multicloud context.
 
 
 
+**Building for Innovation**
+- As IT transforms itself to help guide the cloud strategy, the organization can become an agent of change.
+- With the use of well-defined cloud services supported by standard Application Programming Interfaces (APIs), it is possible to more quickly establish new innovative applications and services to support partners and suppliers
+-  With the use of either public or private cloud services, a business can pilot new services with selected partners and iterate based on feedback.
 
 
+**The Business Imperatives**
+- By establishing a well-defined cloud strategy that is a collaboration between key constituents across a business, you will be in a good position to get started
+-  We can begin the process of streamlining the IT in an organization by modernizing critical business applications and moving key workloads to the cloud
+-  You’ll be able to make well-informed decisions about which workloads should remain on-premises and which services should reside in the cloud. 
 
 
+**Optimizing Your Existing Business**
+- You want to be able to demonstrate that you can react to their needs for change without delay.
+- Today’s customers expect your applications and services to be able to transform in near real-time.
+-  If you can’t meet their expectations for rapid change, they’ll find providers that are more responsive to their needs
 
 
+**Modern Development and Deployment Strategies**
+- DevOps — a combination of modern application development and deployment techniques — is the requirement for building cloud-based innovation
+-  With DevOps, developers employ an agile development approach that assumes an iterative development process
+-  The focus of DevOps and agile development is to focus on customer needs and metrics that can predict success.
+-   DevOps streamlines development and deployment processes so products can be deployed at any time, not just when a new “release” has been created
+
+**Revisiting Your Business Model**
+- One of the benefits of the cloud is that it makes it easier to adapt your business model or to experiment with new ideas that could transform your business.
 
 
-
-
-
+**Transforming the Business Model**
+- Smart businesses aren’t afraid to break their business model and experiment with new approaches to satisfying customers
+-  In fact, the cloud is also the perfect place to experiment with new ideas
+-  Offering compelling offerings that solve customer problems encourages them to buy once they get a taste of success
+- Being able to leverage the cloud to both offer and manage customer interaction transforms your ability to move quickly to increase your business.  
 
 </br>
+
+<details>
+<summary> Module 1 - 3. Architectural Considerations for the Cloud Environment
+ </summary>
+<br>
+</br>
+
+
+
+
+
