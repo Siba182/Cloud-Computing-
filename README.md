@@ -654,6 +654,56 @@ Standards let you do the following:
  </summary>
 <br>
 
+**The Importance of Modularity**
+- Each service can be developed and deployed by small independent teams. This flexibility provides greater benefits in terms of performance, cost and scalability.
+
+- This approach of building services, packaging them together, and managing them consistently and predictably, demands a new approach to software development and deployment.
+
+- Application containerization has brought about new management frameworks that simplify and streamline service and other workloads.
+
+
+**Discovering Why Services Matter in the Cloud**
+-  In the early days of software development, subroutine libraries provided a shortcut for developers to execute a task quickly.
+
+-  Today services have been reimagined so that they are the actual building blocks of reusable services.
+
+- In many instances, today’s development teams are assembling applications from prebuilt services rather than coding applications from scratch. 
+
+
+**Explaining Microservices**
+- Microservices is a process of developing applications that consist of code that is independent of each other and of the underlying developing platformy
+
+- These services are defined in a catalogue so that developers can more easily locate the right service and understand the governance rules for usage.
+
+- Cloud native applications are built as a collection of multiple, independent microservices
+
+Why are microservices so important for a true cloud environment? Consider these four key benefits:
+
+
+- Application development is simplified because each microservice is built to serve a specific and limited purpose. Small development teams can focus on writing code for narrowly defined and more easily understood functions.
+  
+- Code changes will be smaller and less complex than with a complex integrated application, making it easier and faster to make changes, whether to fix a problem or to upgrade a service with new requirements.
+  
+- Scalability — both up and down — makes it simpler to deploy an additional instance of a service or change that service as needs evolve.
+  
+- Microservices are fully tested and validated. When new applications leverage existing microservices, developers can assume the integrity of the new application without the need for continual testing.
+
+
+**The Imperative to Manage Microservices**
+- Microservices are designed to be packaged within containers.
+- Containers provide a technique for packaging applications so that they are abstracted from their runtime environments
+- Containers are then managed through orchestration services. These orchestration services are needed to manage both process and logic as well as data services.
+
+
+**Containers**
+- Docker, CRI-O, Containerd, and frakti are four of the most common container run times.
+- You can think of a container as packaged up software code along with all of its dependencies so that it can run consistently across clouds and on premises
+
+- This packaging up of code is often call encapsulation. Encapsulating code is significant for developers because they do not have to develop code based on each individual environment. 
+
+
+**Containers Bring Virtualization Abstraction to the Next Level**
+-
 </br>
 </details>
 
