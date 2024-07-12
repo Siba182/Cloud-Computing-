@@ -260,6 +260,7 @@ Target audience: End users
 - An architected private cloud that maintains sensitive financial data is ideal for the financial services company
 - The private cloud provides the scalability required for the quantity of data being managed, as well as meeting the legal obligations to store the regulated data in the country where the business is conducted.
 </br>
+</details>
 
 <details>
 <summary> Module 1 - 2. Embracing the Business Imperative
@@ -322,6 +323,7 @@ Target audience: End users
 -  Offering compelling offerings that solve customer problems encourages them to buy once they get a taste of success
 - Being able to leverage the cloud to both offer and manage customer interaction transforms your ability to move quickly to increase your business.  
 
+</details>
 </br>
 
 <details>
@@ -329,6 +331,8 @@ Target audience: End users
  </summary>
 <br>
 </br>
+</details>
+
 
 
 
