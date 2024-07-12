@@ -2,7 +2,7 @@
 
 
 <details>
-<summary> Module 1 - Understanding Cloud Concepts </summary>
+<summary> Module 1 - 1.Understanding Cloud Concepts </summary>
 <br>
 
 **Understanding Cloud Concepts**
