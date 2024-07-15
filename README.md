@@ -703,7 +703,47 @@ Why are microservices so important for a true cloud environment? Consider these 
 
 
 **Containers Bring Virtualization Abstraction to the Next Level**
--
+- Containers build on the virtualization concept.
+- Traditional applications ran on physical servers and utilized the computing resources of that infrastructure
+- To ensure that applications would run predictably, businesses placed each application on its own server
+- If multiple applications were placed on the same server, there was the chance that one application would monopolize all of the hardware resources, causing the other application to fail.
+
+
+**Container Orchestration**
+- As you begin to containerize applications and microservices, you need a way to manage your containers
+- Containers orchestration platforms help to streamline processes like the installation, scaling, and management of containerized applications.
+- The platform also automates the management of a container environment. 
+
+
+**Kubernetes**
+- Kubernetes is an open-source platform for managing containerized workloads and services.
+- Kubernetes is not the only container orchestration platform.
+- Kubernetes has become a de facto standard across many businesses and clouds.
+
+benefits of Kubernetes include:
+- A standardized way to build, package, deploy, and run applications of any language,
+- Portability across multiple cloud providers and the ability to avoid vendor lock-in,
+- Horizontal auto-scaling so that additional pods are created as application demand increases,
+- High availability through continual health checks to ensure that nodes and containers are operating as expected,
+- Automated rollouts to updated applications or its configurations without causing downtime.
+
+**Cataloguing Services**
+- When you move to a microservices approach, you need to be able to keep track of each service as well as understand everything about that service
+
+
+**Defining Cloud Native Applications**
+- In the early days of computing, applications were constrained by the limitations of the expense of the hardware platforms and the limitations of memory and storage.
+
+- The cloud model has changed these restrictions. As the cloud continues to mature, the way application services are designed has evolved.
+
+
+The Cloud Native Computing Foundation offers a clear definition of cloud native:
+-  **Container packaged:** A standard way to package applications that is resource efficient. More applications can be densely packed using a standard container format.
+
+- **Dynamically managed:** A standard way to discover, deploy, and scale up and down containerized applications.
+
+- **Microservices oriented:** A method to decompose the application into modular, independent services that interact through well-defined service contracts.
+
 </br>
 </details>
 
