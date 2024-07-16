@@ -804,6 +804,39 @@ The Cloud Native Computing Foundation offers a clear definition of cloud native:
 </br>
 </details>
 
+<details>
+<summary> Module 2 - 1. What is Microsoft Azure? </summary>
+<br>
+ 
+- Microsoft’s computing platform is called Microsoft Azure, also known as Azure
+- The term Azure means sky blue color and is usually the typical color of “the cloud." 
+- Historically, the cloud platform was called Windows Azure
+- Azure's flexibility of being able to create, build, deploy, and manage organizations’ applications on a global scale has made it one of the top cloud providers worldwide.
+
+
+**Microsoft Azure Helps Organizations with Minimizing Upfront Costs**
+- These features include not requiring upfront costs for Capital Expenditures (CapEx) to scale up resources, quick provisioning and de-provisioning of applications, and flexibility for organizations to only pay for what they use
+
+- Azure is a public cloud provider, but they also offer private, hybrid, and multi-cloud solutions to its users.
+
+- Cloud services in Azure are designed to help its users build new and innovative cloud solutions that help solve our challenges in different areas.
+
+- It allows us to build, develop, manage, and run resources like servers, databases, storage, or applications in multiple cloud environments.
+
+- You can use it for different use-case scenarios in the cloud using the tools, programming languages, and frameworks that you prefer to use.
+
+- Azure offers over 200 services in various categories, including computing, networking, storage, databases, analytics, machine learning and AI, the Internet of Things (IoT), cloud-native, containers, and security.
+
+- Azure also provides edge computing, AI, and Machine Learning (ML) services that enable you to create smart and intelligent solutions with your existing or new applications.
+
+
+**Benefits of a Cloud Provider**
+There are several benefits that a cloud provider has over the traditional on-premise physical environment
+
+
+</br>
+</details>
+
 
 
 
